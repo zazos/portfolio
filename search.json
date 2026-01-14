@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here is a selection of my Minimum Viable Products (MVPs) and data apps.\n\n\n\n\n\n\nSales Dashboard\n\n\nRetail Sales Dashboard\nA predictive analytics dashboard built with Streamlit and Prophet to forecast Q4 inventory needs.\n\n\n\n\n\nNLP Analyzer\n\n\nCustomer Sentiment Analyzer\nAn NLP tool that scrapes Twitter data and performs sentiment analysis using Hugging Face transformers.\n\n\n\n\n\n\n\nImage Classifier\n\n\nPlant Disease Detector\nComputer vision model deployed on Streamlit Cloud to identify plant pathologies from user uploads."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download Resume (PDF)"
+  }
+]
