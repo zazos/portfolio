@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs # GitHub Pages likes the 'docs' folder for simple deployment
+
+website:
+  title: "Panagiotis Zazos | Data Scientist"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Portfolio"
+        href: portfolio.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - icon: github
+        href: https://github.com/pzazos
+      - icon: linkedin
+        href: https://linkedin.com/in/pzazos
+      - icon: envelope
+        href: mailto:panagiotis.zazos@example.com
+  
+  # This enables the toggle switch
+  page-footer:
+    left: "© 2024 Panagiotis Zazos"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: slate # A nice dark theme counterpart to cosmo
+    css: styles.css
+    toc: false

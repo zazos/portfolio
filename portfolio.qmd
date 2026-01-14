@@ -1,0 +1,33 @@
+---
+title: "Projects"
+---
+
+Here is a selection of my Minimum Viable Products (MVPs) and data apps.
+
+::: {layout-ncol=2}
+
+::: {.card}
+[![Sales Dashboard](images/project1.png)](https://share.streamlit.io/your-app-1)
+
+**[Retail Sales Dashboard](https://share.streamlit.io/your-app-1)**
+
+A predictive analytics dashboard built with Streamlit and Prophet to forecast Q4 inventory needs.
+:::
+
+::: {.card}
+[![NLP Analyzer](images/project2.png)](https://share.streamlit.io/your-app-2)
+
+**[Customer Sentiment Analyzer](https://share.streamlit.io/your-app-2)**
+
+An NLP tool that scrapes Twitter data and performs sentiment analysis using Hugging Face transformers.
+:::
+
+::: {.card}
+[![Image Classifier](images/project1.png)](https://share.streamlit.io/your-app-3)
+
+**[Plant Disease Detector](https://share.streamlit.io/your-app-3)**
+
+Computer vision model deployed on Streamlit Cloud to identify plant pathologies from user uploads.
+:::
+
+:::
