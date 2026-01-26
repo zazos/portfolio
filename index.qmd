@@ -1,0 +1,114 @@
+---
+title: "Panagiotis Zazos"
+image: images/profile.png
+about:
+  template: trestles
+  image-width: 20em
+  image-shape: rounded
+  id: hero-heading
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/panagiotis-zazos-ba1a02188/
+    - icon: github
+      text: Github
+      href: https://github.com/zazos
+    - icon: envelope
+      text: Email
+      href: mailto:pzazos@hotmail.com
+---
+
+:::{#hero-heading}
+
+## Bio
+
+I am a Data Scientist with a background in Computer Science and a desire toward building products. What keeps me engaged in this field is its multi-modality; I enjoy the challenge of adapting to different domains, whether that means analyzing sleep patterns via EEG, interpreting music mood through Deep Learning, or engineering RAG systems for dynamic narratives.
+
+Currently, I serve as a Task Leader for EU-funded research projects, where I implement Deep Learning algorithms with a focus on Explainable AI (xAI). While this work has honed my technical rigor—culminating in a workshop presentation in Bologna—my professional focus is shifting beyond the academic sphere.
+
+I find the most satisfaction in the engineering side of Data Science: designing the architecture, handling the pipeline, and delivering a tangible, functional MVP. I am looking for opportunities to bring this end-to-end skillset to a product-focused environment.
+
+:::
+
+
+## Experience
+
+### Data Scientist & Research Associate
+**Four-Dot Infinity** | *Athens, GR (Oct 2024 – Present)*
+
+* **Task Leader (EU MANOLO Project):** Leading the Explainability and Robustness work package. I bridge the gap between abstract research and implementation by coordinating technical deliverables.
+* **xAI Development:** Engineered a comprehensive suite of interpretability tools (SHAP, LIME, GradCAM) and authored novel evaluation metrics—specifically fidelity and surrogacy efficacy scores—to validate model trust.
+* **Grant Writing & Strategy:** I contribute to European funding proposals, translating complex algorithmic concepts into compelling narratives for both technical and non-technical evaluators.
+* **Research Dissemination:** Co-authoring academic papers to share project findings with the wider scientific community.
+
+### Software Developer
+**HQEngine** | *Melbourne, Australia (Remote) (Jun 2021 – May 2022 & Jun 2023 – Mar 2024)*
+
+* **Full-Stack Product Dev:** Built features for a fintech startup focused on eInvoicing and ePayments using Ruby on Rails.
+* **Compliance Engineering:** Integrated XML document generation for PEPPOL standards and implemented validation logic for Australian Business Numbers (ABNs).
+* **Production Maintenance:** Performed full-stack debugging and optimization to ensure regulatory adherence and system stability.
+
+### IT Specialist (ERP)
+**Hellenic Army** | *Athens, GR (Jul 2022 – May 2023)*
+
+* *Mandatory Military Service at the Special Army Unit Supply Center (EKEMS).*
+* Managed commercial transactions and inventory logistics using the Entersoft Business Suite ERP.
+
+### Informatics Intern
+**Elxis Group** | *Athens, GR (Sep 2020 – Jan 2021)*
+
+* **NLP Pipeline:** Managed real-time data collection from the Twitter API, filtering for earthquake-related events.
+* **Data Annotation:** Used Prodigy for pre-processing and annotation to train a multi-class classification model for intensity prediction.
+
+
+## Education
+
+**M.Sc. in Data and Knowledge Management** \
+*National and Kapodistrian University of Athens* | *Athens, GR (Sep 2023 – Jan 2026)* \
+
+**B.Sc. in Informatics and Telecommunications** \
+*National and Kapodistrian University of Athens* | *Athens, GR (Jan 2015 – Sep 2021)* \
+
+
+## Technical Arsenal
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card}
+### Product Engineering
+
+- **GenAI Systems:** Designing RAG architectures and evaluation frameworks for reliable narrative generation.
+- **Full-Cycle Development:** Engineering end-to-end data products, from database schema design to containerized deployment.
+- **Data Pipelines:** Building robust acquisition systems for structured and unstructured web data.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card}
+### Deep Learning & Research
+
+- **Multi-Modal Analysis:** Synthesizing insights from diverse data sources, including audio spectrograms, time-series, and text.
+- **Model Interpretability:** Implementing xAI methodologies to ensure model transparency and trust in critical domains.
+- **Transfer Learning:** Leveraging adapter-based fine-tuning to efficiently specialize foundation models for domain-specific tasks.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card}
+### Game Data Science
+
+- **Gameplay Analytics:** Analyzing match telemetry to quantify player behavior, engagement patterns, and churn risks.
+- **Meta & Balance:** Evaluating itemization efficiency, win-rate trends, and economy flow to optimize game fairness.
+- **System Design:** Applying statistical rigor to game mechanics, such as matchmaking logic and progression curves.
+:::
+:::
+
+:::
+
+### Hobbies
+
+- **Video Games:** Enthusiast of competitive and complex games, where i naturally enjoy diving into the numbers behind the meta and game economies.
+- **Audio Production:** I am an amateur musician armed with an electric guitar and experiment with MIDI to layer beats and ambient textures.
+- **Tabletop & Wargaming:** My creative outlet lies in painting Warhammer miniatures and writing homebrew D&D campaigns.
+- **Cross-fit:** To clear my mind i am committed to high-intensity functional training and personal discipline through cross-fit and functional training.

@@ -2,32 +2,48 @@
 title: "Projects"
 ---
 
-Here is a selection of my Minimum Viable Products (MVPs) and data apps.
+Here is a selection of my projects, ranging from data analytics dashboards to AI pipelines and web crawlers.
 
 ::: {layout-ncol=2}
 
 ::: {.card}
-[![Sales Dashboard](images/project1.png)](https://share.streamlit.io/your-app-1)
+[![Rift Dashboard](images/league-cover.webp)](https://github.com/zazos/Rift-Dashboard)
 
-**[Retail Sales Dashboard](https://share.streamlit.io/your-app-1)**
+**[Rift Dashboard](https://github.com/zazos/Rift-Dashboard)**
 
-A predictive analytics dashboard built with Streamlit and Prophet to forecast Q4 inventory needs.
+A full-stack League of Legends analytics dashboard for meta trends, rank disparities, and summoner profiling.
 :::
 
 ::: {.card}
-[![NLP Analyzer](images/project2.png)](https://share.streamlit.io/your-app-2)
+[![AI NPC LangGraph](images/langchain-cover.png)](https://github.com/zazos/ai-npc-langgraph)
 
-**[Customer Sentiment Analyzer](https://share.streamlit.io/your-app-2)**
+**[AI NPC LangGraph](https://github.com/zazos/ai-npc-langgraph)**
 
-An NLP tool that scrapes Twitter data and performs sentiment analysis using Hugging Face transformers.
+A retrieval-augmented generation (RAG) pipeline for RPG NPCs built with LangGraph and LangChain. Features sentiment analysis, dynamic lore retrieval, and a custom "LLM-as-a-Judge" benchmarking suite for evaluating hallucination and context precision.
 :::
 
 ::: {.card}
-[![Image Classifier](images/project1.png)](https://share.streamlit.io/your-app-3)
+[![Deep MER Clustering (MSc Thesis)](images/music-cover.jpg)](https://github.com/zazos/Deep-MER-Clustering)
 
-**[Plant Disease Detector](https://share.streamlit.io/your-app-3)**
+**[Deep MER Clustering](https://github.com/zazos/Deep-MER-Clustering)**
 
-Computer vision model deployed on Streamlit Cloud to identify plant pathologies from user uploads.
+My Master's Thesis: A complete pipeline for Music Emotion Recognition (MER) combining unsupervised clustering, Large Language Models (LLMs), and parameter-efficient Deep Learning. This project bridges the semantic gap between human perception and raw acoustic features using LLM-assisted clustering and a dual-branch Deep Learning architecture.
+:::
+
+::: {.card}
+[![Humanitarian Crisis in Gaza Strip](images/humanitarian-cover.webp)](https://github.com/zazos/DataViz-website)
+
+**[Humanitarian Crisis Website](https://github.com/zazos/DataViz-website)**
+
+A website dedicated to providing insightful data visualizations on the Palestinian conflicts and humanitarian crisis (Oct 2023 - Apr 2024). Features interactive maps, time-series charts, and analysis of commodity prices and water quality to foster informed dialogue.
+:::
+
+::: {.card}
+[![TikTok Crawler](images/tiktok-cover.jpg)](https://github.com/zazos/TikTok-Crawler)
+
+**[TikTok Crawler](https://github.com/zazos/TikTok-Crawler)**
+
+TikTok Crawler using BeautifulSoup and Selenium to gather data.
 :::
 
 :::
