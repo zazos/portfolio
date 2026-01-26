@@ -14,7 +14,7 @@ about:
       href: mailto:pzazos@hotmail.com
 ---
 
-I am currently open to opportunities in **Data Science**, **Data Analytics**, **Machine Learning Engineering" and **AI Research**.
+I am currently open to opportunities in **Data Science**, **Data Analytics**, **Machine Learning Engineering** and **AI Research**.
 
 Whether you have a question about my work, a potential collaboration, or just want to connect, I'd love to hear from you.
 

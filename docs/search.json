@@ -7,13 +7,6 @@
     "text": "Here is a selection of my projects, ranging from data analytics dashboards to AI pipelines and web crawlers.\n\n\n\n\n\n\nRift Dashboard\n\n\nRift Dashboard\nA full-stack League of Legends analytics dashboard for meta trends, rank disparities, and summoner profiling.\n\n\n\n\n\nAI NPC LangGraph\n\n\nAI NPC LangGraph\nA retrieval-augmented generation (RAG) pipeline for RPG NPCs built with LangGraph and LangChain. Features sentiment analysis, dynamic lore retrieval, and a custom “LLM-as-a-Judge” benchmarking suite for evaluating hallucination and context precision.\n\n\n\n\n\n\n\nDeep MER Clustering (MSc Thesis)\n\n\nDeep MER Clustering\nMy Master’s Thesis: A complete pipeline for Music Emotion Recognition (MER) combining unsupervised clustering, Large Language Models (LLMs), and parameter-efficient Deep Learning. This project bridges the semantic gap between human perception and raw acoustic features using LLM-assisted clustering and a dual-branch Deep Learning architecture.\n\n\n\n\n\nHumanitarian Crisis in Gaza Strip\n\n\nHumanitarian Crisis Website\nA website dedicated to providing insightful data visualizations on the Palestinian conflicts and humanitarian crisis (Oct 2023 - Apr 2024). Features interactive maps, time-series charts, and analysis of commodity prices and water quality to foster informed dialogue.\n\n\n\n\n\n\n\nTikTok Crawler\n\n\nTikTok Crawler\nTikTok Crawler using BeautifulSoup and Selenium to gather data."
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Download Resume (PDF)"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Panagiotis Zazos",
@@ -42,27 +35,6 @@
     "text": "Education\nM.Sc. in Data and Knowledge Management\nNational and Kapodistrian University of Athens | Athens, GR (Sep 2023 – Jan 2026)\n\nB.Sc. in Informatics and Telecommunications\nNational and Kapodistrian University of Athens | Athens, GR (Jan 2015 – Sep 2021)"
   },
   {
-    "objectID": "index.html#key-interests",
-    "href": "index.html#key-interests",
-    "title": "Panagiotis Zazos",
-    "section": "Key Interests",
-    "text": "Key Interests\n\n\n🧠 GenAI & NLP\n\nRAG Systems: Built dynamic lore retrieval engines using LangChain and LangGraph.\nLLM Ops: Experience with “LLM-as-a-Judge” benchmarking and pipeline optimization.\nWeb Scraping: Custom crawlers (Selenium) for data acquisition.\n\n\n\n👁️ Vision & Audio\n\nDeep Learning: ResNet18 fine-tuning, LoRA adapters, and architectural design.\nExplainability: Applied GradCAM and interactive visualizations to “black box” models.\nMulti-modality: Experience with Audio (Spectrograms/Clustering) and EEG data.\n\n\n\n\n\n📊 Visualization\n\nTools: D3.js, Streamlit, Unity (VR).\nPhilosophy: Turning raw clusters into interactive stories (e.g., Humanitarian Crisis dashboard).\n\n\n\n🛠️ Core Tech\n\nLanguages: Python, C#, SQL.\nStack: PyTorch, Docker, Git.\n\n\n\n\n🏔️ Hobbies\n\nPhotography: Capturing urban landscapes.\nHiking: Exploring national parks.\nChess: Strategic thinking (ELO 1500)."
-  },
-  {
-    "objectID": "index.html#technical-interests",
-    "href": "index.html#technical-interests",
-    "title": "Panagiotis Zazos",
-    "section": "Technical Interests",
-    "text": "Technical Interests\n\n\nProduct Engineering\n\nGenAI Systems: Designing RAG architectures and evaluation frameworks for reliable narrative generation.\nFull-Cycle Development: Engineering end-to-end data products, from database schema design to containerized deployment.\nData Pipelines: Building robust acquisition systems for structured and unstructured web data.\n\n\n\n\nDeep Learning & Research\n\nMulti-Modal Analysis: Synthesizing insights from diverse data sources, including audio spectrograms, time-series, and text.\nModel Interpretability: Implementing xAI methodologies to ensure model transparency and trust in critical domains.\nTransfer Learning: Leveraging adapter-based fine-tuning to efficiently specialize foundation models for domain-specific tasks.\n\n\n\nGame Data Science\n\nGameplay Analytics: Analyzing match telemetry to quantify player behavior, engagement patterns, and churn risks.\nMeta & Balance: Evaluating itemization efficiency, win-rate trends, and economy flow to optimize game fairness.\nSystem Design: Applying statistical rigor to game mechanics, such as matchmaking logic and progression curves.\n\n\n\n\n🏔️ Hobbies\n\nPhotography: Capturing urban landscapes.\nHiking: Exploring national parks.\nChess: Strategic thinking (ELO 1500)."
-  },
-  {
-    "objectID": "index.html#experience-1",
-    "href": "index.html#experience-1",
-    "title": "Panagiotis Zazos",
-    "section": "Experience",
-    "text": "Experience\n\nData Scientist & Research Associate\nFour-Dot Infinity | Athens, GR (Oct 2024 – Present)\n\nTask Leader (EU MANOLO Project): Leading the Explainability and Robustness work package. I bridge the gap between abstract research and implementation by coordinating technical deliverables.\nxAI Development: Engineered a comprehensive suite of interpretability tools (SHAP, LIME, GradCAM) and authored novel evaluation metrics—specifically fidelity and surrogacy efficacy scores—to validate model trust.\nGrant Writing & Strategy: I contribute to European funding proposals, translating complex algorithmic concepts into compelling narratives for both technical and non-technical evaluators.\nResearch Dissemination: Co-authoring academic papers to share project findings with the wider scientific community.\n\n\n\nSoftware Developer\nHQEngine | Melbourne, Australia (Remote) (Jun 2021 – May 2022 & Jun 2023 – Mar 2024)\n\nFull-Stack Product Dev: Built features for a fintech startup focused on eInvoicing and ePayments using Ruby on Rails.\nCompliance Engineering: Integrated XML document generation for PEPPOL standards and implemented validation logic for Australian Business Numbers (ABNs).\nProduction Maintenance: Performed full-stack debugging and optimization to ensure regulatory adherence and system stability.\n\n\n\nIT Specialist (ERP)\nHellenic Army | Athens, GR (Jul 2022 – May 2023)\n\nMandatory Military Service at the Special Army Unit Supply Center (EKEMS).\nManaged commercial transactions and inventory logistics using the Entersoft Business Suite ERP.\n\n\n\nInformatics Intern\nElxis Group | Athens, GR (Sep 2020 – Jan 2021)\n\nNLP Pipeline: Managed real-time data collection from the Twitter API, filtering for earthquake-related events.\nData Annotation: Used Prodigy for pre-processing and annotation to train a multi-class classification model for intensity prediction."
-  },
-  {
     "objectID": "index.html#technical-arsenal",
     "href": "index.html#technical-arsenal",
     "title": "Panagiotis Zazos",
@@ -74,6 +46,13 @@
     "href": "contact.html",
     "title": "Get in Touch",
     "section": "",
-    "text": "I am currently open to opportunities in Data Science, Data Analytics, Machine Learning Engineering” and AI Research**.\nWhether you have a question about my work, a potential collaboration, or just want to connect, I’d love to hear from you.\nBased in: Athens, Greece (Open to Remote)"
+    "text": "I am currently open to opportunities in Data Science, Data Analytics, Machine Learning Engineering and AI Research.\nWhether you have a question about my work, a potential collaboration, or just want to connect, I’d love to hear from you.\nBased in: Athens, Greece (Open to Remote)"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download Resume (PDF)"
   }
 ]
