@@ -2,10 +2,10 @@
 title: "Curriculum Vitae"
 ---
 
-[Download Resume (PDF)](files/Panagiotis_Zazos_CV.pdf){.btn .btn-primary}
+[Download Resume (PDF)](files/resume.pdf){.btn .btn-primary}
 
 <iframe 
   width="100%" 
   height="800" 
-  src="files/Panagiotis_Zazos_CV.pdf">
+  src="files/resume.pdf">
 </iframe>
