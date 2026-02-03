@@ -54,5 +54,12 @@
     "title": "Curriculum Vitae",
     "section": "",
     "text": "Download Resume (PDF)"
+  },
+  {
+    "objectID": "index.html#core-competencies",
+    "href": "index.html#core-competencies",
+    "title": "Panagiotis Zazos",
+    "section": "Core Competencies",
+    "text": "Core Competencies\n\n\n\nAI & Deep Learning\n\nExplainable AI (xAI): Implementing interpretability frameworks (SHAP, LIME) to validate model trust in high-stakes environments.\nMulti-Modal Analysis: Synthesizing insights from complex, disparate data sources, including time-series (EEG), audio spectrograms, and text.\nTransfer Learning: Adapting foundation models via fine-tuning to solve domain-specific challenges with limited data.\n\n\n\n\n\nGenerative AI & NLP\n\nRAG Architectures: Engineering Retrieval-Augmented Generation systems to ground LLM outputs in factual data and reduce hallucinations.\nPrompt Engineering & Logic: Utilizing LangChain to orchestrate complex reasoning chains for dynamic narrative and data extraction tasks.\nAutomated Evaluation: Designing custom metrics to score the fidelity, coherence, and safety of generated text outputs.\n\n\n\n\n\nData Strategy & Analytics\n\nBehavioral Analytics: Deriving engagement metrics and churn risk models to quantify user interaction patterns (applicable to patients or consumers).\nSystem Optimization: Analyzing multivariate systems to identify inefficiencies, balance economy flows, and optimize performance parameters.\nEnd-to-End Prototyping: Transforming raw data concepts into functional MVPs, managing the full lifecycle from schema design to deployment.\n\n\n\n\n\nHobbies\n\nVideo Games: Enthusiast of complex strategy games. I enjoy deconstructing the mathematical “meta” and economy flows behind the gameplay just as much as playing.\nAudio Production: I am an amateur musician armed with an electric guitar and experiment with MIDI to layer beats and ambient textures.\nTabletop & Wargaming: My creative outlet lies in painting Warhammer miniatures and writing homebrew D&D campaigns.\nCross-fit: To clear my mind i am committed to high-intensity functional training and personal discipline through cross-fit and functional training."
   }
 ]

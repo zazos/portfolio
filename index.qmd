@@ -70,37 +70,37 @@ I find the most satisfaction in the engineering side of Data Science: designing 
 *National and Kapodistrian University of Athens* | *Athens, GR (Jan 2015 – Sep 2021)* \
 
 
-## Technical Arsenal
+## Core Competencies
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card}
-### Product Engineering
+### AI & Deep Learning
 
-- **GenAI Systems:** Designing RAG architectures and evaluation frameworks for reliable narrative generation.
-- **Full-Cycle Development:** Engineering end-to-end data products, from database schema design to containerized deployment.
-- **Data Pipelines:** Building robust acquisition systems for structured and unstructured web data.
+- **Explainable AI (xAI):** Implementing interpretability frameworks (SHAP, LIME) to validate model trust in high-stakes environments.
+- **Multi-Modal Analysis:** Synthesizing insights from complex, disparate data sources, including time-series (EEG), audio spectrograms, and text.
+- **Transfer Learning:** Adapting foundation models via fine-tuning to solve domain-specific challenges with limited data.
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card}
-### Deep Learning & Research
+### Generative AI & NLP
 
-- **Multi-Modal Analysis:** Synthesizing insights from diverse data sources, including audio spectrograms, time-series, and text.
-- **Model Interpretability:** Implementing xAI methodologies to ensure model transparency and trust in critical domains.
-- **Transfer Learning:** Leveraging adapter-based fine-tuning to efficiently specialize foundation models for domain-specific tasks.
+- **RAG Architectures:** Engineering Retrieval-Augmented Generation systems to ground LLM outputs in factual data and reduce hallucinations.
+- **Prompt Engineering & Logic:** Utilizing LangChain to orchestrate complex reasoning chains for dynamic narrative and data extraction tasks.
+- **Automated Evaluation:** Designing custom metrics to score the fidelity, coherence, and safety of generated text outputs.
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.card}
-### Game Data Science
+### Data Strategy & Analytics
 
-- **Gameplay Analytics:** Analyzing match telemetry to quantify player behavior, engagement patterns, and churn risks.
-- **Meta & Balance:** Evaluating itemization efficiency, win-rate trends, and economy flow to optimize game fairness.
-- **System Design:** Applying statistical rigor to game mechanics, such as matchmaking logic and progression curves.
+- **Behavioral Analytics:** Deriving engagement metrics and churn risk models to quantify user interaction patterns (applicable to patients or consumers).
+- **System Optimization:** Analyzing multivariate systems to identify inefficiencies, balance economy flows, and optimize performance parameters.
+- **End-to-End Prototyping:** Transforming raw data concepts into functional MVPs, managing the full lifecycle from schema design to deployment.
 :::
 :::
 
@@ -108,7 +108,7 @@ I find the most satisfaction in the engineering side of Data Science: designing 
 
 ### Hobbies
 
-- **Video Games:** Enthusiast of competitive and complex games, where i naturally enjoy diving into the numbers behind the meta and game economies.
+- **Video Games:** Enthusiast of complex strategy games. I enjoy deconstructing the mathematical "meta" and economy flows behind the gameplay just as much as playing.
 - **Audio Production:** I am an amateur musician armed with an electric guitar and experiment with MIDI to layer beats and ambient textures.
 - **Tabletop & Wargaming:** My creative outlet lies in painting Warhammer miniatures and writing homebrew D&D campaigns.
 - **Cross-fit:** To clear my mind i am committed to high-intensity functional training and personal discipline through cross-fit and functional training.
