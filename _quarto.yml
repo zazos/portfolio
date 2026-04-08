@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs # GitHub Pages likes the 'docs' folder for simple deployment
+  resources:
+    - files/
 
 website:
   title: "Panagiotis Zazos | AI/ML Engineer"

@@ -1,0 +1,180 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+% Font options
+\usepackage[sfdefault]{roboto}  % Sans-serif font
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{\Large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule]
+
+% Ensure PDF is machine readable
+% \pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingList}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge Panagiotis Zazos} \\
+  \small 6983717939 $|$ \href{mailto:pzazos@hotmail.com}{pzazos@hotmail.com} $|$ 
+  \href{https://www.linkedin.com/in/panagiotis-zazos-bala02188/}{linkedin.com/in/panagiotis-zazos-bala02188} $|$
+  \href{https://github.com/zazos}{github.com/zazos}
+\end{center}
+
+\section*{Summary}
+ML engineer who builds things end-to-end: RAG pipelines, multi-agent systems, fine-tuned models, and the evaluation harnesses that tell you whether any of it actually works. Background spans academic research (EU-funded xAI, ExpliMed 2025) and hands-on product work. Spent enough time with LLM tooling—LangChain, LangGraph, the Claude Code ecosystem—to have developed real opinions about where agents break down and how to architect around it.
+
+\section{Technical Skills}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Programming}: Python, SQL, Ruby on Rails}
+  \resumeItem{\textbf{AI / ML Frameworks}: PyTorch, TensorFlow, Keras, Scikit-learn}
+  \resumeItem{\textbf{LLM \& Agentic Systems}: LangChain, LangGraph, Claude API (Anthropic SDK), RAG Pipelines, ChromaDB, LLM-as-a-Judge, Multi-Agent Orchestration, Prompt Engineering}
+  \resumeItem{\textbf{ML Proficiencies}: Explainable AI (SHAP, LIME, GradCAM), PEFT / LoRA, Fine-tuning, DeepEval}
+  \resumeItem{\textbf{Libraries \& Tools}: Pandas, NumPy, HuggingFace, Git, Docker, Tableau, D3.js, Prodigy}
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingList
+  \resumeSubheading
+    {Automated Pipeline for xAI-Driven Narrative Generation \& Validation}{LLM Project}
+    {Local Development}{Python, LLMs, PEFT, LoRA, DeepEval, SHAP}
+    \resumeSubHeadingList
+        \resumeItem{\textbullet\ Engineered an xAI module to extract feature attributions (SHAP, Grad-CAM) from target models into structured JSON payloads.}
+        \resumeItem{\textbullet\ Developed a 'Narrator' LLM, fine-tuned with PEFT/LoRA, to transform xAI outputs into domain-specific, compliant natural language explanations.}
+        \resumeItem{\textbullet\ Implemented a 'Judge' LLM using DeepEval's GEval for automated validation of narrative quality against accuracy, safety, and actionability pillars.}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Conversational RAG System with Automated Evaluation Pipeline}{Personal Project}
+      {RAG, LangGraph, LLM Evaluation}{Python, LangChain, LangGraph, ChromaDB, Gemini}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Built a RAG pipeline over a structured lore corpus using ChromaDB for vector retrieval and LangGraph for agent state management; deployed as a live Streamlit application.}
+          \resumeItem{\textbullet\ Implemented a dual-mode LLM backend supporting both cloud (Gemini API) and local (LM Studio) providers with zero code changes.}
+          \resumeItem{\textbullet\ Designed an LLM-as-a-Judge evaluation harness with four independent metrics—context precision (0.59), faithfulness (0.78), answer relevance (0.86), and correctness (0.75)—benchmarked against a hand-crafted 20-question ground-truth dataset.}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Multi-Agent System Design with Claude Code}{Personal Project}
+      {Agent Orchestration, Claude Code}{Python, Anthropic Claude Code, Markdown}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Architected a three-agent pipeline using Claude Code primitives (slash commands, subagents, skills) with strict role separation: a narration agent, a rules interpreter agent, and a forked-context NPC agent.}
+          \resumeItem{\textbullet\ Offloaded all arithmetic to an external Python rules engine, eliminating LLM computation errors and making game logic independently testable.}
+          \resumeItem{\textbullet\ Applied progressive skill loading to minimize context window usage—each agent loads only the rulebook sections relevant to the current game state.}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Music Mood Classification and Recommendation API}{Master's Thesis}
+      {Deep Learning, MIR, Web API}{Python, PyTorch, LoRA}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Fine-tuned a pre-trained ResNet-18 on the MTG-Jamendo dataset using LoRA adapters for music mood classification.}
+          \resumeItem{\textbullet\ Applied transfer learning on extracted embeddings to an MLP model for valence-arousal prediction against Spotify's ground truth data.}
+          \resumeItem{\textbullet\ API delivers personalized music recommendations with interactive visualizations of acoustic features and emotion mappings.}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Time-Series EEG Sleep Staging Classification}{HORIZON European Project}
+      {Deep Learning, Time-Series, XAI}{Python, TensorFlow, GANs}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Built a CNN-CNN framework to classify 5 sleep stages from EEG epochs, using a custom focal loss function to manage class imbalance.}
+          \resumeItem{\textbullet\ Engineered a Style-Transfer GAN in collaboration with NSCR'D' to transform EEG data, providing explainable insights into class-specific signal characteristics.}
+      \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingList
+    \resumeSubheading
+      {Data Scientist \& Research Associate}{Oct 2024 -- Present}
+      {Four-Dot Infinity}{Athens, GR}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Acting as Task Leader for Explainability and Robustness within the EU-funded MANOLO project.}
+          \resumeItem{\textbullet\ Developed and implemented a comprehensive suite of xAI techniques (SHAP, LIME, GradCAM) and authored novel evaluation metrics (fidelity, surrogacy efficacy score) to validate model interpretability.}
+          \resumeItem{\textbullet\ Contribute significantly to the structuring and writing of European funding proposals, translating complex technical solutions into compelling, both technical and non-technical, narratives.}
+          \resumeItem{\textbullet\ Co-author academic papers based on project research, contributing to the dissemination of findings within the scientific community.}
+      \resumeSubHeadingListEnd
+    \resumeSubheading
+      {Software Developer}{Jun 2021 -- May 2022 \& Jun 2023 -- Mar 2024}
+      {HQEngine}{Melbourne, Australia (Remote)}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Developed features for a start-up application, focusing on Sales \& Spend eInvoicing and ePayments using Ruby on Rails, HTML, and CSS.}
+          \resumeItem{\textbullet\ Integrated XML document generation features catering to PEPPOL e-Invoicing standards for compliant digital transactions.}
+          \resumeItem{\textbullet\ Implemented robust validation mechanisms for Australian Business Numbers (ABNs) to ensure transaction legitimacy.}
+          \resumeItem{\textbullet\ Performed full-stack debugging to identify and resolve issues, ensuring seamless functionality and regulatory adherence.}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {IT on ERP Entersoft Business Suite}{Jul 2022 -- May 2023}
+      {Hellenic Army}{Athens, Vyronas, GR}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ During mandatory military service, utilized the ERP Entersoft Business Suite for the Special Army Unit Supply Center (EKEMS), managing the recording of invoices, product codes, and commercial transactions.}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Informatics Intern}{Sep 2020 -- Jan 2021}
+      {Elxis Group}{Athens, Illisia, GR}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Managed real-time tweet collection and filtering from the Twitter API based on earthquake events.}
+          \resumeItem{\textbullet\ Implemented tweet pre-processing and annotation using Prodigy to build a multi-class classification model for predicting earthquake intensity.}
+      \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Publications}
+\resumeSubHeadingList
+  \resumeSubheading
+      {xSTAE: Explaining Classifier Decisions via Style Transfer Autoencoding}{Bologna, Italy}
+      {ExpliMed 2025}{2025}
+      \resumeSubHeadingList
+          \resumeItem{Co-authored paper introducing a style-transfer system for counterfactual explanations in sleep-stage classification.}
+          \resumeItem{\textbf{Contribution:} Designed and implemented the dual-CNN classification framework used as the backbone for the explainer system.}
+      \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingList
+  \resumeSubheading
+      {National and Kapodistrian University of Athens}{Athens, GR}
+      {M.S. in Data and Knowledge Management}{Sep 2023 -- Feb 2026}
+  \resumeSubheading
+      {National and Kapodistrian University of Athens}{Athens, GR}
+      {B.S. in Informatics and Telecommunications}{Jan 2015 -- Sep 2021}
+\resumeSubHeadingListEnd
+
+\section{Languages \& Interests}
+  \resumeSubHeadingList
+    \resumeItem{\textbf{Languages}: Greek (Native), English (Highly Proficient)}, Japanese (N5)
+    \resumeItem{\textbf{Interests}: Cross-fit training, Reading, Writing, Music, Video Games}
+  \resumeSubHeadingListEnd
+
+\end{document}
