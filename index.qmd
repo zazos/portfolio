@@ -22,11 +22,11 @@ about:
 
 ## Bio
 
-I am a Data Scientist with a background in Computer Science and a desire toward building products. What keeps me engaged in this field is its multi-modality; I enjoy the challenge of adapting to different domains, whether that means analyzing sleep patterns via EEG, interpreting music mood through Deep Learning, or engineering RAG systems for dynamic narratives.
+I am an ML engineer with a background in Computer Science who builds end-to-end AI systems: RAG pipelines, multi-agent architectures, fine-tuned models, and the evaluation harnesses that tell you whether any of it actually works.
 
-Currently, I serve as a Task Leader for EU-funded research projects, where I implement Deep Learning algorithms with a focus on Explainable AI (xAI). While this work has honed my technical rigor—culminating in a workshop presentation in Bologna—my professional focus is shifting beyond the academic sphere.
+Currently, I serve as Task Leader for Explainability and Robustness in an EU-funded research project, where the work has ranged from implementing xAI techniques to co-authoring papers—most recently presented in Bologna. The research grounds my thinking, but what I am looking for next is a product-focused environment where the output is a shipped system, not a deliverable.
 
-I find the most satisfaction in the engineering side of Data Science: designing the architecture, handling the pipeline, and delivering a tangible, functional MVP. I am looking for opportunities to bring this end-to-end skillset to a product-focused environment.
+I have spent enough time with LLM tooling—LangChain, LangGraph, the Claude Code ecosystem—to have developed real opinions about where agents break down and how to architect around it.
 
 :::
 

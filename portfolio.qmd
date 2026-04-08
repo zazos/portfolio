@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 
-Here is a selection of my projects, ranging from data analytics dashboards to AI pipelines and web crawlers.
+Here is a selection of my projects, ranging from AI pipelines and multi-agent systems to data analytics dashboards.
 
 ::: {layout-ncol=2}
 

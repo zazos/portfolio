@@ -3,7 +3,7 @@ project:
   output-dir: docs # GitHub Pages likes the 'docs' folder for simple deployment
 
 website:
-  title: "Panagiotis Zazos | Data Scientist"
+  title: "Panagiotis Zazos | AI/ML Engineer"
   navbar:
     left:
       - text: "Home"
