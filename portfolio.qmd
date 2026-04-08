@@ -15,11 +15,19 @@ A full-stack League of Legends analytics dashboard for meta trends, rank dispari
 :::
 
 ::: {.card}
-[![AI NPC LangGraph](images/langchain-cover.png)](https://github.com/zazos/ai-npc-langgraph)
+[![Conversational RAG System with Automated Evaluation](images/langchain-cover.png)](https://github.com/zazos/ai-npc-langgraph)
 
-**[AI NPC LangGraph](https://github.com/zazos/ai-npc-langgraph)**
+**[Conversational RAG System with Automated Evaluation](https://github.com/zazos/ai-npc-langgraph)**
 
-A retrieval-augmented generation (RAG) pipeline for RPG NPCs built with LangGraph and LangChain. Features sentiment analysis, dynamic lore retrieval, and a custom "LLM-as-a-Judge" benchmarking suite for evaluating hallucination and context precision.
+A RAG pipeline built with LangChain, LangGraph, and ChromaDB, with a dual-provider LLM backend (cloud/local). Includes a custom LLM-as-a-Judge evaluation harness measuring context precision, faithfulness, answer relevance, and correctness against a hand-crafted ground-truth dataset.
+:::
+
+::: {.card}
+[![Multi-Agent System Design with Claude Code](images/claudecode-color.png)](https://github.com/zazos/claude-code-dungeon-master)
+
+**[Multi-Agent System Design with Claude Code](https://github.com/zazos/claude-code-dungeon-master)**
+
+A three-agent pipeline built using Claude Code primitives — slash commands, subagents, and skills. Strict role separation between a narration agent, a rules interpreter, and a forked-context NPC agent. All arithmetic offloaded to an external Python engine; progressive skill loading used to minimize context window cost per turn.
 :::
 
 ::: {.card}
